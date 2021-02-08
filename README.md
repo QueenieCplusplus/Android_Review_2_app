@@ -12,6 +12,36 @@ Bottom Navigation Bar
 2. add menu item for click bars & drawable/vectorXML for buttom icon & Fragements to change view from Mainpage.
 
 
+
+    for Menu Item s=>
+
+
+              <?xml version="1.0" encoding="utf-8"?>
+              <menu xmlns:android="http://schemas.android.com/apk/res/android">
+                  <item
+                      android:id="@+id/home"
+                      android:icon="@drawable/home"
+                      android:title="Home" />
+
+                  <item
+                      android:id="@+id/clean"
+                      android:icon="@drawable/clean"
+                      android:title="Attentions" />
+
+                  <item
+                      android:id="@+id/chat"
+                      android:icon="@drawable/coffee"
+                      android:title="Info" />
+
+                  <item
+                      android:id="@+id/contact"
+                      android:icon="@drawable/contact"
+                      android:title="Remote Care" />
+
+
+              </menu>
+
+
 3. add frameLayout for different fragements to be inflatered & BottomNavigation Component for User to click inside Activity_Main.xml.
 
 
