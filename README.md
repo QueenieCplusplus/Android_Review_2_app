@@ -9,7 +9,7 @@ Bottom Navigation Bar
        implementation 'com.google.android.material:material:1.1.0'
        implementation 'androidx.legacy:legacy-support-v4:1.0.0'
 
-2. add menu item & drawable/vectorXML & Fragements.
+2. add menu item for click bars & drawable/vectorXML for buttom icon & Fragements.
 
 
 3. add frameLayout for different fragements to be inflatered & BottomNavigation Component for User to click inside Activity_Main.xml.
