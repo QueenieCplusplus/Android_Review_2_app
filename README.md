@@ -50,7 +50,47 @@ Bottom Navigation Bar
 3. add frameLayout for different fragements to be inflatered & BottomNavigation Component for User to click inside Activity_Main.xml.
 
 
+       <?xml version="1.0" encoding="utf-8"?>
+       <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+           xmlns:app="http://schemas.android.com/apk/res-auto"
+           xmlns:tools="http://schemas.android.com/tools"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           tools:context=".MainActivity">
+
+                  <FrameLayout
+                      android:id="@+id/frame_wrapper"
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:background="@color/wood"
+                      app:layout_constraintBottom_toBottomOf="parent"
+                      app:layout_constraintEnd_toEndOf="parent"
+                      app:layout_constraintStart_toStartOf="parent" />
+
+                  <com.google.android.material.bottomnavigation.BottomNavigationView
+                      android:id="@+id/bottomNav"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_marginTop="550dp"
+                      android:background="?android:attr/windowBackground"
+                      app:itemBackground="@color/apricot"
+                      app:itemTextColor="@color/green_olive"
+                      app:layout_constraintBottom_toBottomOf="parent"
+                      app:layout_constraintEnd_toEndOf="parent"
+                      app:layout_constraintStart_toStartOf="parent"
+                      app:layout_constraintTop_toTopOf="parent"
+                      app:menu="@menu/nav_menu" />
+                      
+                      
+       </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
 4. init instance from fragment inside MainActivity class.
+
+
+    val a = AFragment()
 
 
 5. snippet hereby:
