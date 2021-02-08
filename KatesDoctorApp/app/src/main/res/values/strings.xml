@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">KatesDoctorApp</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home_fragment">"Kate's Clinic "</string>
+    <string name="contact_fragment">write a mail to Katesapp2019@gmail.com</string>
+    <string name="attention_fragment">Plz wear FaceMask !</string>
+    <string name="info_fragment">Patty and Kate are the primary doctors for app in dual systems.</string>
+</resources>
