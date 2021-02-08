@@ -49,6 +49,8 @@ Bottom Navigation Bar
 
 3. add frameLayout for different fragements to be inflatered & BottomNavigation Component for User to click inside Activity_Main.xml.
 
+    ![](https://raw.githubusercontent.com/QueenieCplusplus/Android_Review_2_app/main/Bar%20%26%20Nav.png)
+
 
        <?xml version="1.0" encoding="utf-8"?>
        <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
