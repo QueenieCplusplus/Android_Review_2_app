@@ -13,7 +13,7 @@ Bottom Navigation Bar
 
 
 
-    for Menu Item s=>
+    for Menu Items=>
 
 
               <?xml version="1.0" encoding="utf-8"?>
@@ -41,6 +41,11 @@ Bottom Navigation Bar
 
               </menu>
 
+
+
+      for Fragments=>
+      
+              wrapper in Framelayout, and inside view using RelativeLayout
 
 3. add frameLayout for different fragements to be inflatered & BottomNavigation Component for User to click inside Activity_Main.xml.
 
