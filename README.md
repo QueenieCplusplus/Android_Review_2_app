@@ -140,12 +140,31 @@ Bottom Navigation Bar
 
    (1) at top level gradle
    
-        plugins {
+   
+               buildscript {
 
-               id 'androidx.navigation.safeargs.kotlin'
-         }
+                  dependencies {
+                      // 4.1.2 downgrade for safe-args to 3.6.4
+                      classpath "com.android.tools.build:gradle:3.6.4"
+                      classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+
+                      // for safe-args
+                      classpath 'com.google.gms:google-services:4.3.4'
+
+                      // safe-args => 2.3.3
+                      classpath "androidx.navigation:navigation-safe-args-gradle-plugin:$nav_version"
+   
+   
          
    (2) at app level gradle
+   
+      
+               plugins {
+
+                      id 'androidx.navigation.safeargs.kotlin'
+                }
+
+         
    
 ![](https://raw.githubusercontent.com/QueenieCplusplus/Android_Review_2_app/main/output1.png)
 
