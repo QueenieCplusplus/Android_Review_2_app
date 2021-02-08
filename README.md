@@ -20,6 +20,10 @@ Bottom Navigation Bar
 
 5. snippet hereby:
 
+6. be careful that if you add modules for safe args, then downgrade the Gradle version.
+
+7. be attention to add on utf-8 encode tag on the top of your vectorized drawable, otherwise you got build error for String--toooooo-Loooooong ~
+
    
    
 ![](https://raw.githubusercontent.com/QueenieCplusplus/Android_Review_2_app/main/output1.png)
