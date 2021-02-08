@@ -90,7 +90,7 @@ Bottom Navigation Bar
 4. init instance from fragment inside MainActivity class.
 
 
-    val a = AFragment()
+              val a = AFragment()
 
 
 5. snippet hereby:
@@ -120,6 +120,7 @@ Bottom Navigation Bar
 
                   // 初始的碎片畫面
                   private fun initFragment(fragment: Fragment){
+                      
                       // to pass k/v pairs
                       //supportFragmentManager.getFragment()
 
