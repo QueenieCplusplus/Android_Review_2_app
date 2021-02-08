@@ -62,10 +62,7 @@ Bottom Navigation Bar
                       android:id="@+id/frame_wrapper"
                       android:layout_width="match_parent"
                       android:layout_height="match_parent"
-                      android:background="@color/wood"
-                      app:layout_constraintBottom_toBottomOf="parent"
-                      app:layout_constraintEnd_toEndOf="parent"
-                      app:layout_constraintStart_toStartOf="parent" />
+                      android:background="@color/wood"/>
 
                   <com.google.android.material.bottomnavigation.BottomNavigationView
                       android:id="@+id/bottomNav"
@@ -74,11 +71,6 @@ Bottom Navigation Bar
                       android:layout_marginTop="550dp"
                       android:background="?android:attr/windowBackground"
                       app:itemBackground="@color/apricot"
-                      app:itemTextColor="@color/green_olive"
-                      app:layout_constraintBottom_toBottomOf="parent"
-                      app:layout_constraintEnd_toEndOf="parent"
-                      app:layout_constraintStart_toStartOf="parent"
-                      app:layout_constraintTop_toTopOf="parent"
                       app:menu="@menu/nav_menu" />
                       
                       
