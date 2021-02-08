@@ -136,6 +136,16 @@ Bottom Navigation Bar
 7. be attention to add on utf-8 encode tag on the top of your vectorized drawable, otherwise you got build error for String--toooooo-Loooooong ~
 
    
+8. for Safe Args:
+
+   (1) at top level gradle
+   
+        plugins {
+
+               id 'androidx.navigation.safeargs.kotlin'
+         }
+         
+   (2) at app level gradle
    
 ![](https://raw.githubusercontent.com/QueenieCplusplus/Android_Review_2_app/main/output1.png)
 
