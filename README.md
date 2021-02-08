@@ -12,7 +12,7 @@ Bottom Navigation Bar
 2. add menu item & drawable/vectorXML & Fragements.
 
 
-3. add frameLayout for diff fragement to be infaltered & BottomNavigation Component for User to click inside Activity_Main.xml.
+3. add frameLayout for different fragements to be inflatered & BottomNavigation Component for User to click inside Activity_Main.xml.
 
 
 4. init instance from fragment inside MainActivity class.
