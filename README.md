@@ -20,6 +20,41 @@ Bottom Navigation Bar
 
 5. snippet hereby:
 
+
+              super.onCreate(savedInstanceState)
+                      setContentView(R.layout.activity_main)
+
+                      initFragment(h)
+
+                      bottomNav.setOnNavigationItemReselectedListener {
+
+                          when(it.itemId){
+
+                              // see item id in menu
+                              // not drawable id
+                              R.id.home -> initFragment(h)
+                              R.id.clean -> initFragment(a)
+                              R.id.chat -> initFragment(i)
+                              R.id.contact -> initFragment(c)
+
+                          }
+
+                      }
+
+                  }
+
+                  // 初始的碎片畫面
+                  private fun initFragment(fragment: Fragment){
+                      // to pass k/v pairs
+                      //supportFragmentManager.getFragment()
+
+                      supportFragmentManager.beginTransaction().apply {
+                          replace(R.id.frame_wrapper, fragment)
+                          commit()
+                      }
+
+                  }
+
 6. be careful that if you add modules for safe args, then downgrade the Gradle version.
 
 7. be attention to add on utf-8 encode tag on the top of your vectorized drawable, otherwise you got build error for String--toooooo-Loooooong ~
